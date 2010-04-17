@@ -1,3 +1,17 @@
 
+This program sets the screen brightness of the Lenovo U150 laptop. I have not tried it in other systems, and it will surely not work because it uses hardcoded PCI references.
 
-Compile this 
+Compile this C++ program with
+
+g++ -o brightness brightness.cc
+
+Move it to /usr/local/bin/, set the SUID permission and then add keyboard shortcuts for the command in your desktop environment:
+
+brightness up
+brightness down
+
+More info on Linux on Lenovo U150 at
+
+http://facorreadtech.blogspot.com/2010/03/gentoo-linux-on-lenovo-u150.html
+
+I do not have any relationship with Lenovo or its trademarks.
